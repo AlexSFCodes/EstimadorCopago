@@ -4,14 +4,11 @@
 
 ---
 
-Copago AI es un asistente de salud inteligente diseñado para analizar síntomas y encontrar la mejor opción médica para tu bolsillo. El agente sugiere la especialidad y el mejor hospital según las necesidades del usuario.
-
 ## 🎥 Demostración
-
 
 https://github.com/user-attachments/assets/597f65fc-e668-44eb-8ea0-c297ce3a513b
 
-
+Copago AI es un asistente de salud inteligente diseñado para analizar síntomas y encontrar la mejor opción médica para tu bolsillo. El agente sugiere la especialidad y el mejor hospital según las necesidades del usuario.
 
 ## ✨ Características Principales
 * **Análisis de Síntomas:** Evaluación rápida basada en la descripción del usuario.
