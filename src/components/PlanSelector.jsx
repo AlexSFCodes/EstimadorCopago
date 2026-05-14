@@ -49,16 +49,19 @@ const PlanSelector = ({ plans, selectedPlan, onSelect }) => {
           gap: 1rem;
         }
         .plan-card:hover {
-          border-color: var(--primary-color);
-          background: var(--primary-glow);
+          border-color: rgba(255, 255, 255, 0.2);
+          background: rgba(255, 255, 255, 0.05);
         }
         .plan-card.active {
           border-color: var(--primary-color);
+          background: rgba(52, 211, 153, 0.05);
           box-shadow: 0 0 20px var(--primary-glow);
-          background: rgba(16, 185, 129, 0.1);
         }
         .plan-icon {
           font-size: 2rem;
+          background: rgba(255, 255, 255, 0.05);
+          padding: 0.5rem;
+          border-radius: 1rem;
         }
         .plan-info h3 {
           font-size: 1.1rem;

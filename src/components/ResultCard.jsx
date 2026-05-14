@@ -80,15 +80,28 @@ const ResultCard = ({ result }) => {
         }
         .best-option {
           padding: 2rem;
-          border-left: 4px solid var(--primary-color);
-          background: linear-gradient(to right, rgba(16, 185, 129, 0.1), var(--surface-color));
+          border-radius: 1.5rem;
+          background: linear-gradient(135deg, rgba(52, 211, 153, 0.1) 0%, rgba(30, 41, 59, 0.4) 100%);
+          border: 1px solid rgba(52, 211, 153, 0.2);
+          position: relative;
+          overflow: hidden;
+        }
+        .best-option::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 4px;
+          height: 100%;
+          background: var(--primary-color);
         }
         .best-option-label {
-          font-size: 0.7rem;
+          font-size: 0.65rem;
           font-weight: 800;
           color: var(--primary-color);
-          margin-bottom: 1rem;
-          letter-spacing: 0.2em;
+          margin-bottom: 1.25rem;
+          letter-spacing: 0.15em;
+          opacity: 0.9;
         }
         .best-option-content {
           display: flex;

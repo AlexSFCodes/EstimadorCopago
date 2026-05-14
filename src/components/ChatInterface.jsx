@@ -44,19 +44,21 @@ const ChatInterface = ({ onSend, isLoading }) => {
           gap: 1rem;
         }
         textarea {
-          background: rgba(15, 23, 42, 0.5);
+          background: rgba(15, 23, 42, 0.3);
           border: 1px solid var(--border-color);
           border-radius: 1rem;
-          padding: 1rem;
+          padding: 1.25rem;
           color: var(--text-primary);
           font-family: inherit;
           font-size: 1rem;
           resize: none;
           outline: none;
-          transition: border-color var(--transition-speed);
+          transition: all var(--transition-speed);
+          box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
         }
         textarea:focus {
-          border-color: var(--primary-color);
+          border-color: rgba(56, 189, 248, 0.5); /* Accent color on focus */
+          background: rgba(15, 23, 42, 0.5);
         }
         .chat-actions {
           display: flex;

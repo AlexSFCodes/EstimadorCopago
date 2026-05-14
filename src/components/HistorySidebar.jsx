@@ -37,13 +37,15 @@ const HistorySidebar = ({ history, isOpen, onClose }) => {
           height: 100vh;
           z-index: 1000;
           border-radius: 0;
-          border-right: none;
-          padding: 2rem 1.5rem;
-          transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+          border-left: 1px solid var(--border-color);
+          padding: 2.5rem 1.75rem;
+          transition: right 0.5s cubic-bezier(0.16, 1, 0.3, 1);
           display: flex;
           flex-direction: column;
           gap: 2rem;
-          background: rgba(15, 23, 42, 0.95);
+          background: rgba(11, 15, 26, 0.85);
+          backdrop-filter: blur(24px);
+          -webkit-backdrop-filter: blur(24px);
         }
         .history-sidebar.open {
           right: 0;
