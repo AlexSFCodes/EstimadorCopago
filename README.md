@@ -1,16 +1,33 @@
-# React + Vite
+# Copago AI 🤖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**🚀 [¡PRUEBA LA APLICACIÓN EN VIVO AQUÍ!](https://alexsfcodes.github.io/EstimadorCopago/) 🚀**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Copago AI es un asistente de salud inteligente diseñado para analizar síntomas y encontrar la mejor opción médica para tu bolsillo. El agente sugiere la especialidad y el mejor hospital según las necesidades del usuario.
 
-## React Compiler
+## 🎥 Demostración
+<video src="./ruta-de-tu-video.mp4" width="600" controls></video>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Características Principales
+* **Análisis de Síntomas:** Evaluación rápida basada en la descripción del usuario.
+* **Selección de Planes:** Integración con diferentes niveles de cobertura (Plan Oro Premium 🏆, Plan Plata Standard 🥈).
+* **Historial de Consultas:** Registro accesible de las consultas recientes.
+* **Ahorro Inteligente:** Recomendaciones optimizadas para reducir costos.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías
+* React
+* Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Instalación y Desarrollo
+
+Este proyecto utiliza una configuración mínima de React con Vite. 
+
+1. Clona el repositorio.
+2. Instala las dependencias:
+   ```bash
+   npm install
+---
+**🚀 [¡PRUEBA LA APLICACIÓN EN VIVO AQUÍ!](https://alexsfcodes.github.io/EstimadorCopago/) 🚀**
+
+---
